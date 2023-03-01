@@ -20,6 +20,7 @@ public class TestOrangeHRMLogin {
             driver = new ChromeDriver();
             driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
             Thread.sleep(3000);
+            //Login to OrangeHRM Application
             loginSteps = new Baseclass(driver);
             loginSteps.loginApplication();
         }
