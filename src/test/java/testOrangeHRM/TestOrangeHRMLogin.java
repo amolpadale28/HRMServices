@@ -17,6 +17,7 @@ public class TestOrangeHRMLogin {
         try
         {
             WebDriverManager.chromedriver().setup();
+            //Launch browser
             driver = new ChromeDriver();
             driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
             Thread.sleep(3000);
